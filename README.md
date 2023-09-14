@@ -18,6 +18,7 @@ Starting from zero:
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/motorola-common.xml > .repo/local_manifests/motorola-common.xml
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/motorola-sm8550.xml > .repo/local_manifests/motorola-sm8550.xml
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/gitlab.xml > .repo/local_manifests/gitlab.xml
+    curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/firmware.xml > .repo/local_manifests/firmware.xml
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/picks.sh > picks.sh
     repo sync
 
@@ -28,6 +29,7 @@ If you've already synced Lineage-Sources:
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/motorola-common.xml > .repo/local_manifests/motorola-common.xml
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/motorola-sm8550.xml > .repo/local_manifests/motorola-sm8550.xml
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/gitlab.xml > .repo/local_manifests/gitlab.xml
+    curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/firmware.xml > .repo/local_manifests/firmware.xml
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/picks.sh > picks.sh
     repo sync
 
