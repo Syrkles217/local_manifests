@@ -1,8 +1,6 @@
 # Lineage buildscripts
 ========================
 
-Please note, I use ~/android/lineage-20 in this README but you can use whatever folder name you want.
-
 First I recommend checking the official LineageOS wiki instructions for building for dubai here to see what are the dependencies and how to install them
 https://wiki.lineageos.org/devices/dubai/build
 
@@ -10,8 +8,7 @@ Also please note that repopick.sh isn't always updated. Please check LineageOS G
 
 Starting from zero:
 ---------
-    mkdir -p ~/android/lineage-20
-    cd ~/android/lineage-20
+    # cd into your ROM's folder (IE, from scratch I would mkdir -p ~/android/lineage-20 && cd ~/android/lineage-20)
     repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
     mkdir -p .repo/local_manifests
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/extras.xml > .repo/local_manifests/extras.xml
@@ -24,6 +21,7 @@ Starting from zero:
 
 If you've already synced Lineage-Sources:
 ----------
+    # cd into your ROM's folder
     mkdir -p .repo/local_manifests
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/extras.xml > .repo/local_manifests/extras.xml
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/motorola-common.xml > .repo/local_manifests/motorola-common.xml
@@ -35,7 +33,7 @@ If you've already synced Lineage-Sources:
 
 Repopick
 ----------
-    cd ~/android/lineage-20
+    # cd into your ROM's folder
     chmod +x picks.sh
     ./picks.sh
 
@@ -60,7 +58,7 @@ Repopick
 
 Building
 ----------
-    cd ~/android/lineage-20
+    # cd into your ROM's folder
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/rtwo_clean_build.sh > rtwo_clean_build.sh
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/rtwo_dirty_build.sh > rtwo_dirty_build.sh
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-20/rtwo_eng_clean_build.sh > rtwo_eng_clean_build.sh
