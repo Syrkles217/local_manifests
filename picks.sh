@@ -22,6 +22,11 @@ repopick 362504 # Define new RSN AKM suite selector values
 repopick 362505 # SAE: Fix AKM suite selector check for external authentication
 repopick 362506 # SAE: Accept FT and -EXT-KEY AKMs for external auth
 
+# kalama gki
+repopick 365932 # kernel: Handle GKI modules
+
+# dtb(o)
+repopick 366205 # kernel: allow to limit the used .dtb files for the final dtb image
 
 # from topic 13-qcom-telephony-injection
 # https://review.lineageos.org/q/topic:13-qcom-telephony-injection
