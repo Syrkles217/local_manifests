@@ -13,6 +13,9 @@ repopick 342864 # codec2: Change a Info print into Verbose
 repopick 363285 # common: Label UCSI power supply
 repopick 363134 # qva: Extend extcon rules
 
+# scripts
+repopick 366434 # carriersettings-extractor: ignore threshold arrays with size > 4
+
 
 # from LineageOS Gerrit Code Review topic 13-kalama
 # https://review.lineageos.org/q/topic:%2213-kalama%22
