@@ -6,7 +6,7 @@
 # the next 3 lines
 #export USE_CCACHE=1
 #export CCACHE_EXEC=$(which ccache)
-#export CCACHE_DIR=/media/themard/ExtraSSD/ccache
+#export CCACHE_DIR=/mnt/ccache
 
 # we want all compiler messages in English
 export LANGUAGE=C
