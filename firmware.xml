@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="ThE_MarD/proprietary_vendor_firmware" path="vendor/firmware" remote="gitlab" revision="lineage-20"/>
-</manifest>
