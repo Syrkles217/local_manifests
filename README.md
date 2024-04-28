@@ -29,11 +29,7 @@ Building
     # cd into your ROM's folder
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-21/rtwo_clean_build.sh > rtwo_clean_build.sh
     curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-21/rtwo_dirty_build.sh > rtwo_dirty_build.sh
-    curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-21/rtwo_eng_clean_build.sh > rtwo_eng_clean_build.sh
-    curl https://raw.githubusercontent.com/moto-sm8550/local_manifests/lineage-21/rtwo_eng_dirty_build.sh > rtwo_eng_dirty_build.sh
     ./rtwo_clean_build.sh // for rtwo clean builds
     ./rtwo_dirty_build.sh // for rtwo dirty builds
-    ./rtwo_eng_clean_build.sh // for rtwo_eng engineering clean builds
-    ./rtwo_eng_dirty_build.sh // for rtwo_eng engineering dirty builds
 
 I made these modified scripts for convenience plus logs terminal output to files for easy scrolling later in your favorite text editor.
