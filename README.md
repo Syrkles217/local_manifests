@@ -22,7 +22,7 @@ If you've already synced Lineage-Sources:
     mkdir -p .repo/local_manifests
     curl https://raw.githubusercontent.com/Syrkles217/local_manifests/lineage-21/extras.xml > .repo/local_manifests/extras.xml
     curl https://raw.githubusercontent.com/Syrkles217/local_manifests/lineage-21/motorola-common.xml > .repo/local_manifests/motorola-common.xml
-    curl https://raw.githubusercontent.com/Syrkles/local_manifests/lineage-21/motorola-sm8550.xml > .repo/local_manifests/motorola-sm8550.xml
+    curl https://raw.githubusercontent.com/Syrkles217/local_manifests/lineage-21/motorola-sm8550.xml > .repo/local_manifests/motorola-sm8550.xml
 
 Building
 ----------
