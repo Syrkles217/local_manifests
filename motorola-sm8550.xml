@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- device trees -->
-  <project name="LineageOS/android_device_motorola_sm8550-common" path="device/motorola/sm8550-common" remote="github" revision="lineage-21"/>
-  <project name="LineageOS/android_device_motorola_rtwo" path="device/motorola/rtwo" remote="github" revision="lineage-21"/>
+  <project name="Syrkles217/android_device_motorola_sm8550-common" path="device/motorola/sm8550-common" remote="github" revision="derp"/>
+  <project name="Syrkles217/android_device_motorola_rtwo" path="device/motorola/rtwo" remote="github" revision="derp"/>
 
   <!-- kernel -->
   <project name="LineageOS/android_kernel_motorola_sm8550" path="kernel/motorola/sm8550" remote="github" revision="lineage-21"/>
