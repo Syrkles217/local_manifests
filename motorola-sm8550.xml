@@ -10,6 +10,6 @@
   <project name="LineageOS/android_kernel_motorola_sm8550-modules" path="kernel/motorola/sm8550-modules" remote="github" revision="lineage-22.1"/>
 
   <!-- vendor -->
-  <project name="TheMuppets/proprietary_vendor_motorola_sm8550-common" path="vendor/motorola/sm8550-common" remote="github" revision="lineage-22.1"/>
-  <project name="TheMuppets/proprietary_vendor_motorola_rtwo" path="vendor/motorola/rtwo" remote="github" revision="lineage-22.1"/>
+  <project name="moto-sm8550/proprietary_vendor_motorola_sm8550-common" path="vendor/motorola/sm8550-common" remote="github" revision="lineage-22.1"/>
+  <project name="moto-sm8550/proprietary_vendor_motorola_rtwo" path="vendor/motorola/rtwo" remote="github" revision="lineage-22.1"/>
 </manifest>
