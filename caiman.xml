@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- device trees -->
-  <project name="Syrkles217/android_device_google_caimito" path="device/google/caimito" remote="github" revision="lineage-22.2"/>
-  <project name="Syrkles217/android_device_google_zumapro" path="device/google/zumapro" remote="github" revision="lineage-22.2"/>
+  <project name="Syrkles217/android_device_google_caimito" path="device/google/caimito" remote="github" revision="derp"/>
+  <project name="Syrkles217/android_device_google_zumapro" path="device/google/zumapro" remote="github" revision="derp"/>
   <project path="device/google/gs101" remote="github" name="LineageOS/android_device_google_gs101"/>
 
   <!-- kernel -->
   <project path="device/google/caimito-kernels/6.1" remote="aosp-caimito" name="device/google/caimito-kernels/6.1" clone-depth="1"/>
   
   <!-- vendor -->
-  <project name="https://github.com/TheMuppets/proprietary_vendor_google_caiman" path="vendor/google/caiman" remote="github" revision="lineage-22.2"/>
+  <project name="Michael-Slogar/vendor_google_caiman" path="vendor/google/caiman" remote="gitea" revision="qpr2"/>
 </manifest>
