@@ -11,5 +11,5 @@
 
   <!-- vendor -->
   <project name="moto-sm8550/proprietary_vendor_motorola_sm8550-common" path="vendor/motorola/sm8550-common" remote="github" revision="lineage-23.0"/>
-  <project name="moto-sm8550/proprietary_vendor_motorola_rtwo" path="vendor/motorola/rtwo" remote="github" revision="lineage-23.0"/>
+  <project name="moto-sm8550/proprietary_vendor_motorola_rtwo" path="vendor/motorola/rtwo" remote="github" revision="lineage-22.0"/>
 </manifest>
