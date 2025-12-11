@@ -6,6 +6,9 @@
   <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" revision="lineage-23.1"/>
   <project path="hardware/google/pixel-sepolicy" remote="github" name="LineageOS/android_hardware_google_pixel-sepolicy" revision="lineage-23.1"/>
 
+  <!-- kernel -->
+  <project path="device/google/pantah-kernels" remote="github" name="LineageOS/android_device_google_pixel-pantah-kernels" revision="lineage-23.1"/>
+  
   <!-- vendor -->
   <project name="Syrkles217/vendor_google_cheetah" path="vendor/google/cheetah" remote="github" revision="lineage-23.1"/>
 </manifest>
