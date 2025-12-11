@@ -6,5 +6,5 @@
   <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" revision="lineage-23.1"/>
 
   <!-- vendor -->
-  <project name="TheMuppets/vendor_google_cheetah" path="vendor/google/cheetah" remote="github" revision="lineage-23.1"/>
+  <project name="Syrkles217/vendor_google_cheetah" path="vendor/google/cheetah" remote="github" revision="lineage-23.1"/>
 </manifest>
