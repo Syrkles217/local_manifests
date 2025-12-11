@@ -11,7 +11,7 @@ If you've already synced Lineage-Sources:
 ----------
     # cd into your ROM's folder
     mkdir -p .repo/local_manifests
-    curl https://raw.githubusercontent.com/Syrkles217/local_manifests/derpcheetah/cheetah.xml > .repo/local_manifests/caiman.xml
+    curl https://raw.githubusercontent.com/Syrkles217/local_manifests/derpcheetah/cheetah.xml > .repo/local_manifests/cheetah.xml
     
 
 I made these modified scripts for convenience plus logs terminal output to files for easy scrolling later in your favorite text editor.
