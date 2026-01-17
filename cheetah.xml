@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- device trees -->
-  <project name="Syrkles217/android_device_google_pantah" path="device/google/pantah" remote="github" revision="lineage-23.1"/>
-  <project name="Syrkles217/android_device_google_gs201" path="device/google/gs201" remote="github" revision="lineage-23.1"/>
+  <project name="Syrkles217/android_device_google_pantah" path="device/google/pantah" remote="github" revision="16.2"/>
+  <project name="Lineageos/android_device_google_gs201" path="device/google/gs201" remote="github" revision="lineage-23.2"/>
   <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" revision="lineage-23.2"/>\
 
   <!-- kernel -->
